@@ -4,7 +4,7 @@
   "description": "e2e test scenarios for Vacation System with protractor",
   "main": "index.js",
   "scripts": {
-    "test": "--delete-dir-on-start output_js/; tsc; protractor output_js/config.js"
+    "test": "protractor conf.js"
   },
   "repository": {
     "type": "git",
@@ -23,5 +23,8 @@
   "homepage": "https://github.com/mariaparfenyuk/vacationSystemProtractor#readme",
   "dependencies": {
     "jasmine": "^3.7.0"
+  },
+  "devDependencies": {
+    "jasmine-spec-reporter": "^7.0.0"
   }
 }
