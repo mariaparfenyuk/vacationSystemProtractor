@@ -1,0 +1,27 @@
+{
+  "name": "vacation-system-protractor",
+  "version": "1.0.0",
+  "description": "e2e test scenarios for Vacation System with protractor",
+  "main": "index.js",
+  "scripts": {
+    "test": "--delete-dir-on-start output_js/; tsc; protractor output_js/config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariaparfenyuk/vacationSystemProtractor.git"
+  },
+  "keywords": [
+    "e2e",
+    "protractor",
+    "jasmine"
+  ],
+  "author": "Maria Parfenyuk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariaparfenyuk/vacationSystemProtractor/issues"
+  },
+  "homepage": "https://github.com/mariaparfenyuk/vacationSystemProtractor#readme",
+  "dependencies": {
+    "jasmine": "^3.7.0"
+  }
+}
